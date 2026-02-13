@@ -1,4 +1,4 @@
-# friends = ["Zoro", "Sanji", "Luffy", "Brook", "Nico", "Nami"]
+# friends = ["Zoro", "Sanji", "Luffy", "Brook", "Nico", "Nami"] # lists are mutable 
 # friends[3] = "Boa"
 # friends[4] = "Nico Robin"
 # print(friends[2:4:1])
