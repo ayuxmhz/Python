@@ -1,0 +1,18 @@
+who = input("Enter the answer to who: ")
+what = input("Enter the answer to what: ")
+look = input("Enter the answer to look: ")
+
+print("Madlibs game of Nami:\n")
+print(f"Nami {who}")
+print(f"Nami loves {what}")
+print(f"Nami is a {look}\n")
+
+qn = input("Enter the ans to qn: ")
+wewe = input("Enter the ans to wewe: ")
+go = input("Enter the ans to go: ")
+whose = input("Enter the ans to whose: ")
+what = input("Enter the ans to what: \n")
+print("Now for Zoro:\n")
+print(f"Zoro get's {qn}")
+print(f"Zoro loves drinking {wewe}. Zoro need money to {go}")
+print(f"Zoro is the first crewmate of {whose}.Luffy welcomed him to join his {what}")
