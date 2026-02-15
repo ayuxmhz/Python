@@ -29,19 +29,37 @@
 # else:
 #     print("You are neither male nor tall")
 
-num1 = int(input("Enter the number 1: "))
-num2 = int(input("Enter the number 2: "))
-num3 = int(input("Enter the number 3: "))
+num1 = int(input("Enter the number 1: "))  # takes input from the user also take int
+num2 = int(input("Enter the number 2: "))  # takes input from the user also take int
+num3 = int(input("Enter the number 3: "))  # takes input from the user also take int
 
 
-def max_num(num1, num2, num3):
+def max_num(
+    num1, num2, num3
+):  # we create a function and name it max_num , where we will be passing  three numbers to check the largest number
 
-    if num1 >= num2 and num1 >= num3:
+    if num1 >= num2 and num1 >= num3:  # checks num1 is larger than num2 nad num3
+        # print(
+        #     f"Num1 is largest number and the number is:{num1}"
+        # )  # instead of printing at the last we printed here | it only gets printed out if the condition is True
         return num1
-    elif num2 >= num1 and num2 >= num3:
+    elif num2 >= num1 and num2 >= num3:  # checks num2 is larger than num1 and num3
+        # print(
+        #     f"Num2 is the largest number and the number is:{num2} "
+        # )  # it only gets printed out if the condition is True
         return num2
-    else:
+    else:  # This run if both num1 and num2 are smaller than num3
+        # print(
+        #     f"Num3 is largest Number and the number is :{num3}"
+        # )  # it only gets printed out if the condition is True
         return num3
 
 
-print(max_num(num1, num2, num3))
+# print(max_num(num1, num2, num3))
+Largest = max_num(num1, num2, num3)#here we just created a variable where max_num is stored 
+print(f"The largest number is: {Largest}")
+
+
+# number = 20
+# print(f"Sum: {number +number}")
+# print(f"Type: {type(number)}")
