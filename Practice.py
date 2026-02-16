@@ -24,7 +24,7 @@
 
 # given_number = int(input("enter the number: "))
 
-# if given_number % 2 == 0:
+# if given_number % 2 == 0: # % it checks the reminder if it give reminder then it checks with the ==0 and print the outcome and if it doesn't given reminder it gives different outcome
 #     print(f"{given_number} given number is even")
 # else:
 #     print(f"{given_number} given number is odd")
@@ -60,9 +60,10 @@
 # word ="level"
 # palindrome=word[::-1]
 # print(palindrome)
-word = input("Enter the words: ")
+# word = input("Enter the words: ")
 
-if word[::-1] == word:
-    print(f"{word}  is palindrome word ")
-else:
-    print(f"{word} is not a palindrome word ")
+# if word[::-1] == word:# word[ ::-1] means that it will start from the last character  so it start one by one from right to left till the end of character and compare it with the word the user give
+
+#     print(f"{word}  is palindrome word ") #if the word still matches even after reversed then it print this
+# else:
+#     print(f"{word} is not a palindrome word ") # if the word are not same after the reverse  then it print this
