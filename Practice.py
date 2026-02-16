@@ -67,3 +67,11 @@
 #     print(f"{word}  is palindrome word ") #if the word still matches even after reversed then it print this
 # else:
 #     print(f"{word} is not a palindrome word ") # if the word are not same after the reverse  then it print this
+
+email=(input("Enter the email: "))
+
+if "@gmail.com" in email:
+  print("valid email")
+
+else:
+  print("not a valid email")
