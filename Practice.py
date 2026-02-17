@@ -169,3 +169,27 @@
 
 # result = large_num()
 
+students = {}
+
+
+student_name = input("Enter the student name: ")
+student_mark = int(input("Enter the student marks: "))
+
+#Both code below works in this case one code is little bit complex another is simpler 
+# students.update({"Name": student_name})
+# students.update({"Mark": student_mark})
+#This is the simpler version of code 
+students["Name"]=student_name
+students["Mark"]=student_mark
+
+if student_mark >= 80:
+    print(f"{student_name} got Distinction with {student_mark} marks ")
+
+elif student_mark >= 60:
+    print(f"{student_name} got First Division with {student_mark} marks ")
+
+elif student_mark >= 40:
+    print(f"{student_name} passed the exam with {student_mark} marks")
+
+else:
+    print(f"{student_name} failed the exam with {student_mark} marks")
