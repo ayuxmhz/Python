@@ -117,22 +117,55 @@
 # print(user_info["city"])
 # print(user_info.values())# prints all the values from the dictionary=user_info
 
-user_dict = {
-    "name": "Nami",
-    "age": 21,
-}
+# user_dict = {
+#     "name": "Nami",
+#     "age": 21,
+# }
 # user_key=input("Enter the keys: ")
 # user_value=input("Enter the value: ")
 
-# user_dict.updatt({user_key:user_value})
+# user_dict.update({user_key:user_value})
 # print(user_dict)
 
-check_dict = input("enter the key you want to check: ")
+# user_key = input("enter the key you want to check: ")
+# if user_key in user_dict:
+#    print(f"{user_key} key is in the dictionary ")
+# else:
+#    print(f"{user_key} key doesn't exit in the dictionary")
 
-print(user_dict.get(check_dict))
+
+# def square():
+#     num = int(input("enter the number: "))
+#     squared = pow(num, 2)
+#     return (num, squared)
 
 
-if user_dict.get(check_dict) is not None:
-    print(f"{check_dict} key is in the user_dictionary")
-else:
-    print(f"{check_dict} key does not exit in the user_dictionary")
+# num, result = square()
+# print(f"{result} is the square of {num} ")
+
+
+# def user_name():
+#     name = input("enter the name: ")
+#     return name
+
+
+# result = user_name()
+# print(f"Hello {result}!!")
+
+# num1 = input("enter the number: ")
+# num2 = input("enter the number: ")
+
+
+# def large_num():
+#     if num1 > num2:
+#         print(f"{num1} is larger than{num2}")
+
+#         return num1
+#     else:
+#         print(f"{num2} is larger than {num1}")
+
+#         return num2
+
+
+# result = large_num()
+
