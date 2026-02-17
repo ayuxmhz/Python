@@ -82,7 +82,7 @@
 
 # n = True
 # o = False
-# if not n == o and not o == n:
+# if n!=o:
 #     print("Hawai")
 # else:
 #     print("No hawai")
@@ -152,8 +152,8 @@
 # result = user_name()
 # print(f"Hello {result}!!")
 
-# num1 = input("enter the number: ")
-# num2 = input("enter the number: ")
+# num1 = int(input("enter the number: "))
+# num2 = int(input("enter the number: "))
 
 
 # def large_num():
@@ -169,27 +169,27 @@
 
 # result = large_num()
 
-students = {}
+# students = {}
 
 
-student_name = input("Enter the student name: ")
-student_mark = int(input("Enter the student marks: "))
+# student_name = input("Enter the student name: ")
+# student_mark = int(input("Enter the student marks: "))
 
-#Both code below works in this case one code is little bit complex another is simpler 
-# students.update({"Name": student_name})
-# students.update({"Mark": student_mark})
-#This is the simpler version of code 
-students["Name"]=student_name
-students["Mark"]=student_mark
+# #Both code below works in this case one code is little bit complex another is simpler
+# # students.update({"Name": student_name})
+# # students.update({"Mark": student_mark})
+# #This is the simpler version of code
+# students["Name"]=student_name
+# students["Mark"]=student_mark
 
-if student_mark >= 80:
-    print(f"{student_name} got Distinction with {student_mark} marks ")
+# if student_mark >= 80:
+#     print(f"{student_name} got Distinction with {student_mark} marks ")
 
-elif student_mark >= 60:
-    print(f"{student_name} got First Division with {student_mark} marks ")
+# elif student_mark >= 60:
+#     print(f"{student_name} got First Division with {student_mark} marks ")
 
-elif student_mark >= 40:
-    print(f"{student_name} passed the exam with {student_mark} marks")
+# elif student_mark >= 40:
+#     print(f"{student_name} passed the exam with {student_mark} marks")
 
-else:
-    print(f"{student_name} failed the exam with {student_mark} marks")
+# else:
+#     print(f"{student_name} failed the exam with {student_mark} marks")
