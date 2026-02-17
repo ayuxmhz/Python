@@ -1,14 +1,11 @@
-# num1 = input("Enter the first number: ")
-# num2 = input("Enter the second number: ")
-# print(int(num1) + int(num2))
-# print(int(num1) * int(num2))
-# print(int(num1) - int(num2))
-# print(int(num1) / int(num2))
-
-# result =int(num1+num2)# so first the string does the concatenation then it turn it to int so no addition is between
+# num1 = int(input("Enter the first number: "))
+# num2 = int(input("Enter the second number: "))
+# print(num1 + num2)
+# print(num1 * num2)
+# print(num1 - num2)
+# print(num1 / num2)
 
 # num = int(input("Enter the number: "))
-
 
 # print(pow(num, 2))
 # print(pow(num, 3))
@@ -49,10 +46,10 @@
 # else:
 #     print(f"You have fail with {marks}")
 
-# user_name = (input("Enter the name: "))
-# length=len(user_name)
+# user_name = (input("Enter the name: "))# we ask a name from the user
+# length=len(user_name)# it is to check the length of name user gave
 
-# if length > 5:
+# if length > 5:#to check user name is greater than 5 or not
 #     print(f"{user_name} length greater than 5 ")
 # else:
 #     print(f"{user_name} length is not greater than 5")
@@ -68,9 +65,9 @@
 # else:
 #     print(f"{word} is not a palindrome word ") # if the word are not same after the reverse  then it print this
 
-# email=(input("Enter the email: "))
+# email=(input("Enter the email: "))#we ask user to write down email
 
-# if "@gmail.com" in email:
+# if "@gmail.com" in email: # checks if the email the user gave have @gmail.com or not  and the keyword we use to check that is "in"  keyword
 #   print("valid email")
 
 # else:
@@ -90,24 +87,32 @@
 # else:
 #     print("No hawai")
 
-# fruits1 = input("Enter the any Fruits you like: ")
-# fruits2 = input("Enter the any Fruits you like: ")
-# fruits3 = input("Enter the any Fruits you like: ")
-# fruits4 = input("Enter the any Fruits you like: ")
-# fruits5 = input("Enter the any Fruits you like: ")
+# fruits1 = input("Enter the any Fruits you like: ")# asking user from the fruits they want to add in the all fruits list
+# fruits2 = input("Enter the any Fruits you like: ")# asking user from the fruits they want to add in the all fruits list
+# fruits3 = input("Enter the any Fruits you like: ")# asking user from the fruits they want to add in the all fruits list
+# fruits4 = input("Enter the any Fruits you like: ")# asking user from the fruits they want to add in the all fruits list
+# fruits5 = input("Enter the any Fruits you like: ")# asking user from the fruits they want to add in the all fruits list
 
-# All_fruits = [fruits1, fruits2, fruits3, fruits4, fruits5]
+# All_fruits = [fruits1, fruits2, fruits3, fruits4, fruits5] # putting the fruits the user gave in the all fruits list
 
-# print(All_fruits)
+# print(All_fruits)#prints all the fruits from the all fruits list
 
-# remove_first = input("Enter a fruit to remove: ")
-# All_fruits.remove(remove_first)
-# print(All_fruits)
+# remove_first = input("Enter a fruit to remove: ")# we are asking fruit that user want to remove from the all fruits list
+# All_fruits.remove(remove_first)#removes the fruit the user gave
+# print(All_fruits)#updated all fruits list
 
 
-nums = [10, 20, 100, 90, 80]
-user_number = int(input("Enter the number you want to check: "))
-if user_number in nums:
-    print(f"{user_number} is in nums ")
-else:
-    print(f"{user_number} does not exit in nums")
+# nums = [10, 20, 100, 90, 80]
+# user_number = int(input("Enter the number you want to check: "))
+# if user_number in nums:
+#     print(f"{user_number} is in nums ")
+# else:
+#     print(f"{user_number} does not exit in nums")
+
+
+user_info = {"Name": "Zoro", "Age": 24, "city": "Uptown"}
+# prints one by one value |
+print(user_info["Name"])
+print(user_info["Age"])
+print(user_info["city"])
+# print(user_info.values())# prints all the values from the dictionary=user_info
