@@ -68,10 +68,46 @@
 # else:
 #     print(f"{word} is not a palindrome word ") # if the word are not same after the reverse  then it print this
 
-email=(input("Enter the email: "))
+# email=(input("Enter the email: "))
 
-if "@gmail.com" in email:
-  print("valid email")
+# if "@gmail.com" in email:
+#   print("valid email")
 
+# else:
+#   print("not a valid email")
+
+
+# numbers = [20, 50, 30, 40]
+
+# print(max(numbers), " is the largest number")
+# print(min(numbers), " is the smallest number")
+# print(sum(numbers), " is the total sum of the numbers list")
+
+# n = True
+# o = False
+# if not n == o and not o == n:
+#     print("Hawai")
+# else:
+#     print("No hawai")
+
+# fruits1 = input("Enter the any Fruits you like: ")
+# fruits2 = input("Enter the any Fruits you like: ")
+# fruits3 = input("Enter the any Fruits you like: ")
+# fruits4 = input("Enter the any Fruits you like: ")
+# fruits5 = input("Enter the any Fruits you like: ")
+
+# All_fruits = [fruits1, fruits2, fruits3, fruits4, fruits5]
+
+# print(All_fruits)
+
+# remove_first = input("Enter a fruit to remove: ")
+# All_fruits.remove(remove_first)
+# print(All_fruits)
+
+
+nums = [10, 20, 100, 90, 80]
+user_number = int(input("Enter the number you want to check: "))
+if user_number in nums:
+    print(f"{user_number} is in nums ")
 else:
-  print("not a valid email")
+    print(f"{user_number} does not exit in nums")
