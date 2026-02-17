@@ -110,9 +110,29 @@
 #     print(f"{user_number} does not exit in nums")
 
 
-user_info = {"Name": "Zoro", "Age": 24, "city": "Uptown"}
-# prints one by one value |
-print(user_info["Name"])
-print(user_info["Age"])
-print(user_info["city"])
+# user_info = {"Name": "Zoro", "Age": 24, "city": "Uptown"}
+# # prints one by one value |
+# print(user_info["Name"])
+# print(user_info["Age"])
+# print(user_info["city"])
 # print(user_info.values())# prints all the values from the dictionary=user_info
+
+user_dict = {
+    "name": "Nami",
+    "age": 21,
+}
+# user_key=input("Enter the keys: ")
+# user_value=input("Enter the value: ")
+
+# user_dict.updatt({user_key:user_value})
+# print(user_dict)
+
+check_dict = input("enter the key you want to check: ")
+
+print(user_dict.get(check_dict))
+
+
+if user_dict.get(check_dict) is not None:
+    print(f"{check_dict} key is in the user_dictionary")
+else:
+    print(f"{check_dict} key does not exit in the user_dictionary")
