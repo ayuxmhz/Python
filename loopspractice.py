@@ -13,3 +13,13 @@
 #     user_num -= 1
 
 
+# ur_number = int(input("Enter the number: "))
+# num = 1
+# total_sum = 0
+
+# while num <= ur_number:
+
+#     total_sum += num
+#     num += 1
+
+# print(f" The sum from 1 to {ur_number} is: {total_sum}")
