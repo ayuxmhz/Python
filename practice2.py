@@ -41,20 +41,30 @@
 
 # Task 5
 
-secret_number = 99
-user_number = " "
-tries = 0
-total_tires = 3
-out_of_tries = False
+# secret_number = 99
+# user_number = 0
+# tries = 0
+# total_tires = 3
+# out_of_tries = False
 
-while user_number != secret_number and not (out_of_tries):
-    if tries < total_tires:
-        user_number = int(input("Enter the number: "))
-        tries += 1
-    else:
-        out_of_tries = True
+# while user_number != secret_number and not (out_of_tries):
+#     if tries < total_tires:
+#         user_number = int(input("Enter the number: "))
+#         tries += 1
+#     else:
+#         out_of_tries = True
 
-if out_of_tries:
-    print("Sorry!! You are out of tries, Try next time goodbye to you money")
-else:
-    print("Congrats you have guess the winning number")
+# if out_of_tries:
+#     print("Sorry!! You are out of tries, Try next time goodbye to you money")
+# else:
+#     print("Congrats you have guess the winning number")
+
+
+# Task
+mul_num = int(input("Enter the number you want multiplication of: "))
+num = 1
+
+while 10 >= num:
+    mul = mul_num * num
+    print(f"{mul_num} x {num}: {mul}")
+    num += 1
