@@ -88,20 +88,30 @@
 # print(f"The total sum of number:{total}")
 
 # Task 9
-find_even = [
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8,
-]
-counts = 0
-for even in find_even:
-    if even % 2 == 0:
-        counts += 1
-print(f"There are total {counts} even number in the list ")
-    # else:
-    #   print(f"{even} is not even number")
+# find_even = [
+#     1,
+#     2,
+#     3,
+#     4,
+#     5,
+#     6,
+#     7,
+#     8,
+# ]
+# counts = 0
+# for even in find_even:
+#     if even % 2 == 0:
+#         counts += 1
+# print(f"There are total {counts} even number in the list ")
+#     # else:
+#     #   print(f"{even} is not even number")
+
+# Task 10
+
+num_list = [2, 8, 9, 15, 18]
+large = num_list[0]
+
+for num in num_list:
+    if num > large:
+        large = num
+print(f"{large} is the largest number")
