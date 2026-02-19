@@ -61,10 +61,20 @@
 
 
 # Task
-mul_num = int(input("Enter the number you want multiplication of: "))
-num = 1
+# mul_num = int(input("Enter the number you want multiplication of: "))
+# num = 1
 
-while 10 >= num:
-    mul = mul_num * num
-    print(f"{mul_num} x {num}: {mul}")
-    num += 1
+# while 10 >= num:
+#     mul = mul_num * num
+#     print(f"{mul_num} x {num}: {mul}")
+#     num += 1
+
+
+Baddie_list = ["Nami", "Nico Robin", "Boa hancock", "Vivi", "Hinata", "Orihime"]
+
+# for index in range(len(Baddie_list)): # range(lne(Baddie_list)) means loop equal to the length of the list so the length of list is 6  it runs and prints all the name from the list 
+    # print(index,Baddie_list[index])# we are accessing names through index 
+  
+#simpler one just access the names
+for name in Baddie_list:
+    print(name)
