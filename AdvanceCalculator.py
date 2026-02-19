@@ -30,10 +30,15 @@ def calculator():  # we created function called calculator
 
 # # Let user do multiple calculations
 while True:
-    print(
-        calculator()
-    )  # we called the function=calculator  inside the while loop so that user can choose to calculate again or not 
-    again = input("\nCalculate again? (y/n): ")# asking if user wants to calculate again or not by choosing y/n 
-    if again.lower() != "y":# .lower() function lowers anything user give example "Y" gonna be -> "y"
-        print("Goodbye!")
-        break # If we haven't put break here it could loop again because the condition here is always True | so we put break if the user give n then it breaks the loop right way
+    print(calculator())
+    while True:
+        # print(calculator())  # we called the function=calculator  inside the while loop so that user can choose to calculate again or not
+        again = input("\nCalculate again? (y/n):").lower()  # asking if user wants to calculate again or not by choosing y/n
+        if (again == "y"):  # .lower() function lowers anything user give example "Y" gonna be -> "y"
+            break
+        elif again == "n":
+            print("Goodbye!")
+            exit()
+            # break  # If we haven't put break here it could loop again because the condition here is always True | so we put break if the user give n then it breaks the loop right way
+        else:
+            print("Invalid input! Please enter 'y' or 'n'.")
