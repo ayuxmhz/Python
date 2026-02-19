@@ -80,9 +80,28 @@
 #     print(name)
 
 # Task 8
-numbers = [2, 4, 6, 8, 10]
-total = 0
+# numbers = [2, 4, 6, 8, 10]
+# total = 0
 
-for num in numbers:
-    total += num
-print(f"The total sum of number:{total}")
+# for num in numbers:
+#     total += num
+# print(f"The total sum of number:{total}")
+
+# Task 9
+find_even = [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+]
+counts = 0
+for even in find_even:
+    if even % 2 == 0:
+        counts += 1
+print(f"There are total {counts} even number in the list ")
+    # else:
+    #   print(f"{even} is not even number")
