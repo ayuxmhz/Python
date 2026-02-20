@@ -117,10 +117,18 @@
 # print(f"{large} is the largest number")
 
 # Task 11
-number = [90, 1, 3, 4, 8, 7]
-smallest = number[0]
+# number = [90, 1, 3, 4, 8, 7]
+# smallest = number[0]
 
-for num in number:
-    if num < smallest:
-        smallest = num
-print(f"{smallest} is the smallest number")
+# for num in number:
+#     if num < smallest:
+#         smallest = num
+# print(f"{smallest} is the smallest number")
+
+#Task 12
+normal_list=[1,2,3,4,5,6,7,8,9]
+reverse_list=[]
+
+for i in range(len(normal_list)-1,-1,-1):
+  reverse_list = normal_list[i]
+  print(reverse_list)
