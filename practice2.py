@@ -108,10 +108,19 @@
 
 # Task 10
 
-num_list = [2, 8, 9, 15, 18]
-large = num_list[0]
+# num_list = [2, 8, 9, 15, 18]
+# large = num_list[0]
 
-for num in num_list:
-    if num > large:
-        large = num
-print(f"{large} is the largest number")
+# for num in num_list:
+#     if num > large:
+#         large = num
+# print(f"{large} is the largest number")
+
+# Task 11
+number = [90, 1, 3, 4, 8, 7]
+smallest = number[0]
+
+for num in number:
+    if num < smallest:
+        smallest = num
+print(f"{smallest} is the smallest number")
