@@ -130,5 +130,8 @@ normal_list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 reverse_list = []
 
 for i in range(len(normal_list) - 1, -1, -1):
-    reverse_list.append(normal_list[i]) 
-print(reverse_list)
+    reverse_list.append(normal_list[i])
+
+print(
+    reverse_list
+)  # if we put this inside the loop it will give us [9] it is iterate the revers list one by one so next iteration will be [9,8] and this carry on to [9,8,7,6,5,4,3,2,1] and stops
